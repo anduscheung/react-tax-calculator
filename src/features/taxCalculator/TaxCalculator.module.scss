@@ -1,0 +1,25 @@
+.root {
+  padding: 20px;
+}
+
+.taxCalculatorHeader {
+  text-align: center;
+}
+
+.taxCalculatorBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.taxCalculatorBody > :first-child {
+  flex: 1;
+  min-width: 300px;
+}
+
+.taxCalculatorBody > :last-child {
+  flex: 1;
+  min-width: 300px;
+}
