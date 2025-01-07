@@ -2,14 +2,14 @@
 
 ## Overview
 
-This project was initially a senior frontend developer take-home assignment and has been adapted into a portfolio showcase to demonstrates my ability to:
+This is a tax calculator app that demonstrate my ability and technical decisions on creating a production grade frontend for the best scalability and maintainability, it covers:
 
-1. Design and implement scalable, production-ready frontend applications.
-2. Utilize modern tools and frameworks effectively to build maintainable codebases.
-3. Create clean, reusable, and testable components.
-4. Write robust tests for critical workflows and business logic.
-5. Implement error handling, logging, and environment-aware configurations.
-6. Optimize for performance and user experience.
+1. Folder structure and files naming conventions 
+2. How to write clean, reusable and testable components
+3. How to utilize modern tools and frameworks effectively
+4. Writing robust tests for critical workflows and business logics
+5. Implement comprehensive error handling, logging and environment aware configurations
+6. Optimize the features for better performance and user experience
 
 ![Tax Calculator Demo](https://github.com/anduscheung/my-icon-host/blob/main/tax-calculator-demo.gif)
 
