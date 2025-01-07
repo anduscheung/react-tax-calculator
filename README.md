@@ -41,7 +41,7 @@ The initial requirement was to write the UI for a tax calculating app that fetch
 
 ---
 
-## UI/UX and user workflow
+## User workflow and UI/UX decisions
 
 ### **The Mandatory features**
 
@@ -52,7 +52,7 @@ The initial requirement was to write the UI for a tax calculating app that fetch
 - If there is error when fetching the API, the app will automatically retry once, if it encounters two consecutive fails than it will show an error. This ensures the user isn’t blocked due to a temporary API issue.
 - The amount field will only accept positive/negative number, all other input will lead to an error message and $0 tax on the tax result.
 
-### **Enhancing User Input Experience**
+### **Features to Enhance User Input Experience**
 
 - If user types a trailing zero in front of a positive number, or a zero between the negative size and the first number, the input will automatically delete the zero, making it more convenient for the user
 - If user removes all words from the input the value will automatically be set to 0
