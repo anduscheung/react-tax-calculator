@@ -115,3 +115,5 @@ In my opinion, the primary purpose of testing is to ensure that core logic and e
 - **Utility Functions:** All utility functions include comprehensive unit tests to ensure reliability and robustness.
 - **Features:** Each feature is equipped with integration tests to validate its behavior in real-world scenarios and ensure all parts work seamlessly together..
 - **Reusable Components:** Reusable components are minimally tested if they primarily rely on well-tested open-source libraries to ensure their functionality is correctly integrated (e.g., ControlledDropdown.tsx and ControlledInput.tsx). However, fully custom-built components are tested comprehensively to cover edge cases and ensure robustness (e.g., ErrorMessage.tsx).
+
+To run the test locally and see the coverage: `npm run test-watch`
