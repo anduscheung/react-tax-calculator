@@ -43,7 +43,7 @@ The initial requirement was to write the UI for a tax calculating app that fetch
 
 ## User workflow and UI/UX decisions
 
-### **The Mandatory features**
+### **1. The Mandatory features**
 
 - When initial load, this app will render TaxForm on the left and TaxResult on the right.
 - When frontend is fetching the tax bracket for the selected year, the amount field of the TaxForm will be disable during api fetching.
@@ -52,12 +52,12 @@ The initial requirement was to write the UI for a tax calculating app that fetch
 - If there is error when fetching the API, the app will automatically retry once, if it encounters two consecutive fails than it will show an error. This ensures the user isn’t blocked due to a temporary API issue.
 - The amount field will only accept positive/negative number, all other input will lead to an error message and $0 tax on the tax result.
 
-### **Features to Enhance User Input Experience**
+### **2. Features to Enhance User Input Experience**
 
 - If user types a trailing zero in front of a positive number, or a zero between the negative size and the first number, the input will automatically delete the zero, making it more convenient for the user
 - If user removes all words from the input the value will automatically be set to 0
 
-### **Common Q&As about the stale and cache time for the API call**
+### **3. Common Q&As about the stale and cache time for the API call**
 
 #### **Q: Will users see stale data after 1 day?**
 
