@@ -4,7 +4,7 @@
 
 This is a tax calculator app that demonstrate my ability and technical decisions on creating a production grade frontend for the best scalability and maintainability, it covers:
 
-1. Folder structure and files naming conventions 
+1. Folder structure and files naming conventions
 2. How to write clean, reusable and testable components
 3. How to utilize modern tools and frameworks effectively
 4. Writing robust tests for critical workflows and business logics
@@ -110,7 +110,7 @@ A feature-based structure which in my opinion is the best structure for frontend
 
 ### 4. Testing strategy
 
-![test coverage](tax-calculator-test-coverage.png)
+![test coverage](https://github.com/anduscheung/my-icon-host/blob/main/tax-calculator-test-coverage.png)
 
 In my opinion, the primary purpose of testing is to ensure that core logic and existing functionality remain intact when future changes are made by other team members. In this project, I demonstrate how I approach writing tests for a production-grade frontend repository:
 
