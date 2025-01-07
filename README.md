@@ -110,6 +110,8 @@ A feature-based structure which in my opinion is the best structure for frontend
 
 ### 4. Testing strategy
 
+![test coverage](tax-calculator-test-coverage.png)
+
 In my opinion, the primary purpose of testing is to ensure that core logic and existing functionality remain intact when future changes are made by other team members. In this project, I demonstrate how I approach writing tests for a production-grade frontend repository:
 
 - **Utility Functions:** All utility functions include comprehensive unit tests to ensure reliability and robustness.
